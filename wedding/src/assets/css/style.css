@@ -1,0 +1,32 @@
+/* jsコード */
+.on{
+    display: none;
+}
+/* 汎用コード */
+.allWrapper{
+    text-align: center;
+    max-width: 1000px;
+    margin: 60px auto 0;
+}
+.parts-section{
+    margin-bottom: 50px;
+}
+.parts-heading{
+    font-size:  40px;
+    padding: 40px 0;
+}
+.pc{
+    display: block;
+}
+.sp{
+    display: none;
+}
+
+@media screen and (max-width:1100px){
+    .pc{
+    display: none;
+    }
+    .sp{
+        display: block;
+    }
+}
